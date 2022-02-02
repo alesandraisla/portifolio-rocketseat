@@ -16,7 +16,6 @@ body {
     "aside main main"
     "footer footer footer"
     ;
-    /* grid-template-rows: 350px 1fr 80px; */
     grid-template-rows: 1fr 2 fr 1 fr;
     grid-template-columns: 400px 1fr;
     color: var(--text-color);
@@ -44,9 +43,6 @@ img {
     color: var(--text-color);
 }
 
-li {
-    list-style: none;
-}
 
 /*Main ================================*/
 
@@ -143,9 +139,11 @@ line-height: 25px;
 
 }
 
+
+
 .lg-post.perfil li {
     margin-right: 1.33rem;
-
+    list-style: none;
 }
 
 .circle1 {
@@ -238,6 +236,7 @@ p {
     height: 20px;
     padding-right: 10px;
 }
+
 .perfil-links div {
     margin-left: 30px;
 }
@@ -251,25 +250,15 @@ ul li{
     line-height: 16px;
 }
 
-
-.tech {
-    width: 348px;
-    height: 208px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    background-color:var(--bg-cards);
-    margin-top: 40px;
-    margin-left: 40px;
-    border-radius: 20px;
-    /* display: flex; */
-    /* flex-direction:column; */
-}
-
-.tech h2 {
+.tech h2, .experience h2, .education h2{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
-    padding-top:20px;
+    margin-left: 20px;
+}
+
+.tech div {
     margin-left: 20px;
 }
 
@@ -297,5 +286,22 @@ ul li{
     border-radius: 10rem;
 }
 
+.tech,  .experience, .education  {
+    width: 348px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color:var(--bg-cards);
+    border-radius: 20px;
+    margin: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.experience ul, .education ul {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+
+/*Lateral ==========================*/
 
 
