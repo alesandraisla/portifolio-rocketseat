@@ -52,9 +52,14 @@ li {
 
 .lg-card {
     background-color:var(--bg-cards);
-    width:90%;
-    height:100px;
-    margin: 2rem auto;
+    width:86%;
+    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    /* margin: 2rem auto; */
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -81,7 +86,7 @@ line-height: 25px;
     height: 140px;
     background-color:var(--bg-cards);
     border-radius: 20px;
-    margin-left: 3.13rem;
+    margin-left: 2.13rem;
     margin-right: 3.33rem;
     margin-top: auto;
     margin-bottom: auto;
@@ -108,14 +113,24 @@ line-height: 25px;
 
 .lg-post.perfil {
     background-color:var(--bg-cards);
-    width:90%;
+    width: 86%;
     height:250px;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     border-radius: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 0 30px;
+    /* padding: 0 30px; */
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.lg-post.perfil div h2 {
+    font-size: 20px;
 }
 
 .lg-post.perfil div {
@@ -135,27 +150,27 @@ line-height: 25px;
 
 .circle1 {
     position: absolute;
-width: 15px;
-height: 15px;
-left: 977px;
-top: 297px;
-border-radius:50%;
-background: #E7DE79;
-border: 2px solid #837E9F;
-box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    left: 740px;
+    top: 306px;
+    border-radius:50%;
+    background: #E7DE79;
+    border: 2px solid #837E9F;
+    box-sizing: border-box;
 }
 
 .circle2 {
     position: absolute;
-width: 15px;
-height: 15px;
-left: 1736;
-top: 300;
-right:166px;
-border-radius:50%;
-background: #E7DE79;
-border: 2px solid #837E9F;
-box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    left: 1736;
+    top: 300;
+    right:166px;
+    border-radius:50%;
+    background: #E7DE79;
+    border: 2px solid #837E9F;
+    box-sizing: border-box;
 }
 
 
@@ -213,7 +228,20 @@ p {
     margin-left: 40px;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
+
+.perfil-links img {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+.perfil-links div {
+    margin-left: 30px;
+}
+
 ul li{
     margin-top: 18px;
     margin-bottom: 10px;
@@ -236,20 +264,37 @@ ul li{
     /* flex-direction:column; */
 }
 
-.tech div {
-    margin-left: 40px;
-margin-right: 40px;
-}
-
 .tech h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
     padding-top:20px;
-    margin-left: 40px;
+    margin-left: 20px;
+}
 
+.badge {
+    display: inline-block;
+    padding: 0.50em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color:var(--bg-techs);
+    margin-bottom: 10px;
+    margin-right: 25px;
+    min-width: 60px;
+    color: #000000;
+    font-style: normal;
+    font-size: 10px;
+}
 
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
 }
 
 
