@@ -3,6 +3,7 @@
     --text-color: #837E9F;
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
+    --circle: #E7DE79;
 }
 body {
     font-family: 'Merriweather Sans', sans-serif;
@@ -54,8 +55,6 @@ img {
     margin-bottom: 30px;
     margin-left: 2rem;
     margin-right: 2rem;
-
-    /* margin: 2rem auto; */
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -111,18 +110,15 @@ line-height: 25px;
     background-color:var(--bg-cards);
     width: 86%;
     height:250px;
-    /* margin: 2rem auto; */
     border-radius: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* padding: 0 30px; */
     margin-top: 40px;
     margin-bottom: 30px;
     margin-left: 2rem;
     margin-right: 2rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
 }
 
 .lg-post.perfil div h2 {
@@ -136,10 +132,7 @@ line-height: 25px;
 .lg-post.perfil ul {
     padding-left:0px;
     display: flex;
-
 }
-
-
 
 .lg-post.perfil li {
     margin-right: 1.33rem;
@@ -153,8 +146,8 @@ line-height: 25px;
     left: 740px;
     top: 306px;
     border-radius:50%;
-    background: #E7DE79;
-    border: 2px solid #837E9F;
+    background: var(--circle);
+    border: 2px solid var(--text-color);
     box-sizing: border-box;
 }
 
@@ -166,11 +159,10 @@ line-height: 25px;
     top: 300;
     right:166px;
     border-radius:50%;
-    background: #E7DE79;
-    border: 2px solid #837E9F;
+    background: var(--circle);
+    border: 2px solid var(--text-color);
     box-sizing: border-box;
 }
-
 
 .md-card p {
     margin: 1.733rem auto;
@@ -180,7 +172,6 @@ line-height: 25px;
 p {
     font-weight: 300;
 }
-
 
 .circle-img {
     border-radius: 100%;
@@ -204,6 +195,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
 .perfil-aside img {
     margin-top: 40px;
 }
@@ -302,6 +294,14 @@ ul li{
 }
 
 
-/*Lateral ==========================*/
+/*Rodapé ==========================*/
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+    color: var(--bg-techs);
+}
 
