@@ -124,11 +124,16 @@ img {
 }
 
 .lg-post.perfil div h2 {
-    font-size: 12px;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 .lg-post.perfil div {
     margin-left: 2.66rem;
+}
+
+.lg-post.perfil p {
+    font-size: 11px;
 }
 
 .lg-post.perfil ul {
