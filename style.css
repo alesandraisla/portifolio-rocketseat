@@ -320,14 +320,19 @@ footer span {
         margin-right: 25px;
         margin-bottom: 20px;
         min-width: 89%;
-
+        padding-right: 15px;
+    }
+    .md-card {
+        padding-right: 15px;
     }
     .lg-card.recent {
         margin-top: 0px;
         margin-bottom: 0px;
+        padding-right: 18px;
     }
     .lg-post.perfil {
         padding-top:20px;
+        padding-right: 15px;
     }
     .lg-card {
         margin-bottom: 20px;
@@ -340,9 +345,16 @@ footer span {
     }
     .md-card {
         padding-bottom: 20px;
+        min-width: 80%;
+        margin-right: 0px;
+        padding-right: 10px;
     }
     .md-card.second {
         margin-left: 32px;
+        padding-bottom: 20px;
+        min-width: 80%;
+        margin-right: 0px;
+        padding-right: 44px;
     }
     .lg-card.recent {
         margin-top: 20px;
@@ -356,6 +368,9 @@ footer span {
         justify-content: center;
         align-items: center;
         padding-top: 10px;
+    }
+    .md-card.second:first-child , .md-card.second p{
+        padding-left: 20px
     }
 }
 
@@ -448,14 +463,33 @@ footer span {
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 425px) {
     .lg-post.perfil {
-        width: 200px;
+        width: 225px;
+        padding-left: 0px;
     }
     .lg-post.perfil p {
         font-size: 11px;
     }
     .items-card span {
         font-size: 11px;
+    }
+    .lg-card.recent {
+        padding-right: 30px;
+    }
+    .md-card.second {
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .lg-card.project {
+        width: 165%;
+    }
+    .md-card.second, .md-card {
+        min-width: 191%;
+    }
+    .lg-card.recent {
+        width: 161%;
     }
 }

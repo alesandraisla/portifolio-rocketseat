@@ -11,8 +11,10 @@ CSS - O layout foi construído utilizando GRID Layout. E alguns componentes foi 
 
 [Portifólio](https://alesandraisla.github.io/portifolio-rocketseat/).
 
-## Layout ##
+## Layout Mobile e Desktop ##
 
-![Logo do R](https://github.com/alesandraisla/portifolio-rocketseat/blob/master/assets/layout.png)
-
+<div align="center">
+    <img src="./assets/mobile.png" width="200px" align="center" > 
+    <img src="./assets/desktop.png" width="600px" align="center" height="400px">
+</div>
 
