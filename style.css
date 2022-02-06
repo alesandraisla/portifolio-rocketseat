@@ -485,11 +485,28 @@ footer span {
 @media (max-width: 375px) {
     .lg-card.project {
         width: 165%;
+        margin-left: 10px;
     }
     .md-card.second, .md-card {
         min-width: 191%;
+        margin-left: 10px;
     }
     .lg-card.recent {
         width: 161%;
+        margin-left: 10px;
+    }
+    .perfil-aside {
+        width: 170px;
+        margin-left: 10px;
+    }
+    .perfil-links{
+        margin-left: 10px;
+    }
+    .tech, .experience, .education {
+        margin-left: 10px;
+    }
+    .lg-post.perfil {
+        width: 267px;
+        margin-left: 10px;
     }
 }
