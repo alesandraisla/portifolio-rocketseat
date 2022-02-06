@@ -479,6 +479,9 @@ footer span {
         padding-right: 30px;
         margin-left: 0;
     }
+    .md-card {
+        margin-left: 0;
+    }
     .md-card.second {
         padding-right: 5px;
         margin-left: 0;
@@ -530,8 +533,13 @@ footer span {
     .md-card.second {
         min-width: 232%;
         margin-left: 10px;
+        padding-right: 10px;
+
     }
     .lg-card.recent {
         width: 213%;
+    }
+    .md-card.second p {
+        padding-left: 0;
     }
 }
