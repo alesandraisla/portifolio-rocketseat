@@ -467,6 +467,7 @@ footer span {
     .lg-post.perfil {
         width: 225px;
         padding-left: 0px;
+        margin-left: 0;
     }
     .lg-post.perfil p {
         font-size: 11px;
@@ -476,9 +477,17 @@ footer span {
     }
     .lg-card.recent {
         padding-right: 30px;
+        margin-left: 0;
     }
     .md-card.second {
         padding-right: 5px;
+        margin-left: 0;
+    }
+    .lg-card.project {
+        margin-left: 0;
+    }
+    .md-card {
+        margin-left: 0;
     }
 }
 
@@ -506,7 +515,23 @@ footer span {
         margin-left: 10px;
     }
     .lg-post.perfil {
-        width: 267px;
+        margin-left: 0px;
+    width: 350px;
+    }
+}
+
+@media(max-width: 320px) {
+    .lg-card.project {
+        width: 203%;
+    }
+    .md-card {
+        min-width: 226%;
+    }
+    .md-card.second {
+        min-width: 232%;
         margin-left: 10px;
+    }
+    .lg-card.recent {
+        width: 213%;
     }
 }
