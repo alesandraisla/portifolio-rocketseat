@@ -354,7 +354,8 @@ footer span {
         padding-bottom: 20px;
         min-width: 80%;
         margin-right: 0px;
-        padding-right: 44px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .lg-card.recent {
         margin-top: 20px;
@@ -468,6 +469,8 @@ footer span {
         width: 225px;
         padding-left: 0px;
         margin-left: 0;
+        margin-right: 0px;
+        padding-right: 25px;
     }
     .lg-post.perfil p {
         font-size: 11px;
@@ -478,19 +481,39 @@ footer span {
     .lg-card.recent {
         padding-right: 30px;
         margin-left: 0;
+        margin-right: 0px;
+        padding-right: 30px;
     }
     .md-card {
         margin-left: 0;
     }
     .md-card.second {
-        padding-right: 5px;
         margin-left: 0;
+        padding-right: 15px;
+        padding-left: 10px;
     }
     .lg-card.project {
         margin-left: 0;
+        margin-right: 0px;
+        padding-right: 20px;
     }
     .md-card {
         margin-left: 0;
+    }
+
+    .perfil-aside {
+        margin-left: 10px;
+    }
+    .perfil-links {
+        padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    }
+    .tech, .experience, .education {
+        margin-left: 10px;
+    }
+    main {
+        margin-left: 10px;
     }
 }
 
@@ -498,14 +521,20 @@ footer span {
     .lg-card.project {
         width: 165%;
         margin-left: 10px;
+        margin-right: 0px;
+        padding-right: 46px;
     }
     .md-card.second, .md-card {
         min-width: 191%;
         margin-left: 10px;
     }
+   
     .lg-card.recent {
-        width: 161%;
+        width: 229%;
+        margin-left: 5px;
         margin-left: 10px;
+        margin-right: 0px;
+        padding-right: 50px;
     }
     .perfil-aside {
         width: 170px;
@@ -514,26 +543,37 @@ footer span {
     .perfil-links{
         margin-left: 10px;
     }
-    .tech, .experience, .education {
+    .tech {
         margin-left: 10px;
+    }
+
+    .experience, .education {
+        margin-left: 20px;
     }
     .lg-post.perfil {
         margin-left: 0px;
-    width: 350px;
+        width: 372px;
+        margin-right: 0px;
+        padding-right: 39px;
+    }
+    .lg-post.perfil {
+        width: 342px;
     }
 }
 
 @media(max-width: 320px) {
     .lg-card.project {
-        width: 203%;
+        width: 232%;
     }
     .md-card {
-        min-width: 226%;
+        min-width: 269%;
     }
     .md-card.second {
         min-width: 232%;
         margin-left: 10px;
         padding-right: 10px;
+        min-width: 273%;
+
 
     }
     .lg-card.recent {
@@ -542,4 +582,5 @@ footer span {
     .md-card.second p {
         padding-left: 0;
     }
+    
 }
